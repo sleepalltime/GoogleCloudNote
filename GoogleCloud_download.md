@@ -5,7 +5,7 @@
 ## 安裝Google Cloud CLI
 
 > **點擊以下連結取得
-https://cloud.google.com/sdk/docs/install-sdk?hl=zh-cn**
+>https://cloud.google.com/sdk/docs/install-sdk?hl=zh-cn**
 
 ## 安裝Google Cloud CLI 後
 
@@ -32,8 +32,8 @@ Please enter your numeric choice:
 
 根據上面
 > Pick configuration to use:  //選擇配置
- [1] Re-initialize this configuration [default] with new settings //重新初始化[default]的設定
- [2] Create a new configuration  //創建新配置
+> [1] Re-initialize this configuration [default] with new settings //重新初始化[default]的設定
+> [2] Create a new configuration  //創建新配置
 
 這邊我選擇創建新配置，所以在`Please enter your numeric choice:`後輸入2
 
@@ -77,13 +77,13 @@ Please enter your numeric choice:
 > Enter configuration name. Names start with a lower case letter and contain only lower case letters a-z, digits 0-9, and hyphens '-':  configuration2-test //在:後面輸入配置名稱，這裡我取名為**configuration2-test**
 
 > Select an account: //選擇要建立配置的帳號
- [1] info@aifunschool@gmail.com  //現有的帳號
- [2] Sign in with a new Google Account  //創建新帳號
+> [1] info@aifunschool@gmail.com  //現有的帳號
+> [2] Sign in with a new Google Account  //創建新帳號
 
 這邊我選擇使用現有的帳號，所以在`Please enter your numeric choice:`後輸入1
 
 > 若想創建新帳號可以參考以下連結的教學
-https://kejyuntw.gitbooks.io/google-cloud-platform-learning-notes/content/gcloud/gcloud-README.html
+> https://kejyuntw.gitbooks.io/google-cloud-platform-learning-notes/content/gcloud/gcloud-README.html
 
 ---
 
@@ -102,10 +102,10 @@ Please enter numeric choice or text value (must exactly match list item):
 ```
 根據上面
 > Pick cloud project to use:  //選擇要使用的雲端專案
- [1] myplaygames@392212--
- [2] temposlash@cd8--
- [3] Enter a project ID    //輸入專案ID
- [4] Create a new project  //創建新專案
+> [1] myplaygames@392212--
+> [2] temposlash@cd8--
+> [3] Enter a project ID    //輸入專案ID
+> [4] Create a new project  //創建新專案
 
 這邊選擇使用[1]，所以在`Please enter numeric choice or text value (must exactly match list item):`後輸入1
 
@@ -177,7 +177,7 @@ Please enter numeric choice or text value (must exactly match list item):
 
 根據上面
 > Your current project has been set to: [myplaygames@392212--].
-Do you want to configure a default Compute Region and Zone? (Y/n)?  Y
+> Do you want to configure a default Compute Region and Zone? (Y/n)?  Y
 
 將配置設定在所選的專案中後，會要求配置區域，**這裡一定要輸入Y**
 之後將區域配置在`[26] asia-east1-b`，所以在`Please enter numeric choice or text value (must exactly match list item):`後輸入26
@@ -212,6 +212,8 @@ Some things to try next:
 C:\WINDOWS\System32>
 ```
 **如此就可以完成配置**
+
+完成配置後，若之後想下載檔案直接執行以下下載指令即可
 
 ---
 
